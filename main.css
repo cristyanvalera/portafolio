@@ -8,11 +8,9 @@
 }
 
 html {
-    /* me permite deslizar cuando hago clic en los links del menu */
     scroll-behavior: smooth;
 }
 
-/* MENU */
 .container {
     background: #1e2326;
     position: fixed;
@@ -146,7 +144,7 @@ html {
     margin-bottom: 20px;
 }
 
-.aboutme .content-section p span {
+.aboutme .content-section p {
     color: #1CB698;
     font-weight: bold;
 }
@@ -242,6 +240,14 @@ html {
     width: 100%;
 }
 
+.aboutme a {
+    color: #fff;
+}
+
+.skill .text-white {
+    color: #fff;
+}
+
 .skills {
     background-color: #252A2E;
     color: #fff;
@@ -280,6 +286,7 @@ html {
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
+    color: white;
 }
 
 .skills .skill .javascript {
@@ -586,5 +593,9 @@ footer .up {
 
     .contact .row .col {
         width: 100%;
+    }
+
+    .text-white {
+        color: white;
     }
 }
