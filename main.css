@@ -32,7 +32,7 @@ html {
 .container header .logo a {
     font-family: 'Righteous';
     font-size: 36px;
-    color: #1CB698;
+    color: white;
     text-decoration: none;
 }
 
@@ -51,12 +51,12 @@ html {
 }
 
 .container header nav ul li a:hover {
-    color: #1CB698;
+    color: #fff;
 }
 
 .nav-responsive {
-    background-color: #1CB698;
-    color: #fff;
+    background-color: white;
+    color: black;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -74,7 +74,7 @@ html {
 
 .begin .content-banner {
     padding: 20px;
-    background-color: #1e2326;
+    background-color: #353837;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -83,7 +83,7 @@ html {
 
 .begin .content-banner img {
     margin-top: 40px;
-    border: 10px solid #1CB698;
+    border: 10px solid hwb(125 900% 56%);
     display: block;
     width: 80%;
     margin: auto;
@@ -145,7 +145,7 @@ html {
 }
 
 .aboutme .content-section p {
-    color: #1CB698;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -173,7 +173,7 @@ html {
 
 .aboutme .row .col ul li strong {
     display: inline-block;
-    color: #1CB698;
+    color: #fff;
     width: 130px;
 }
 
@@ -203,7 +203,8 @@ html {
 }
 
 .aboutme .row .col .container-interests .interest:hover {
-    background-color: #1CB698;
+    background-color: #767e7c;
+    cursor: pointer;
 }
 
 .aboutme .row .col .container-interests .interest i {
@@ -231,7 +232,7 @@ html {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #767e7c;
     z-index: -1;
     transition: 1s;
 }
@@ -340,7 +341,7 @@ html {
 .portfolio .galeria {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .portfolio .galeria .project {
@@ -353,7 +354,7 @@ html {
 
 .portfolio .galeria .project img {
     width: 100%;
-    display: block;
+    display: flex;
 }
 
 .portfolio .galeria .project .overlay {
@@ -446,7 +447,7 @@ html {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #767e7c;
     z-index: -1;
     transition: 1s;
 }
@@ -515,7 +516,7 @@ footer .up {
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
+    background-color: #767e7c;
     color: #fff;
     position: absolute;
     left: 50%;
@@ -596,7 +597,8 @@ footer .up {
         width: 100%;
     }
 
-    .text-white {
-        color: white;
-    }
+}
+
+.text-white {
+    color: white;
 }
