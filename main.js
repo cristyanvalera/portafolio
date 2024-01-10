@@ -1,4 +1,4 @@
-const menuVisible = false;
+let menuVisible = false;
 
 const toggleShowMenu = () => {
     if (menuVisible) {
