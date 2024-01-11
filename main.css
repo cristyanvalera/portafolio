@@ -12,8 +12,8 @@ html {
 }
 
 img {
-   max-width: 100%;
-   height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -147,11 +147,7 @@ img {
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
-}
-
-.aboutme .content-section p {
     color: #fff;
-    font-weight: bold;
 }
 
 .aboutme .row {
