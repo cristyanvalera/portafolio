@@ -2,17 +2,19 @@
 <html>
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Cristyan Valera | Portafolio</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -25,10 +27,18 @@
             <nav id="nav">
                 <ul>
                     <li><a href="#begin" onclick="select()">INICIO</a></li>
-                    <li><a href="#aboutme" onclick="select()">SOBRE MI</a></li>
-                    <li><a href="#skills" onclick="select()">HABILIDADES</a></li>
-                    <li><a href="#portfolio" onclick="select()">PORTAFOLIO</a></li>
-                    <li><a href="#contacto" onclick="select()">CONTACTO</a></li>
+                    <li>
+                        <a href="#aboutme" onclick="select()">SOBRE MI</a>
+                    </li>
+                    <li>
+                        <a href="#skills" onclick="select()">HABILIDADES</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" onclick="select()">PORTAFOLIO</a>
+                    </li>
+                    <li>
+                        <a href="#contacto" onclick="select()">CONTACTO</a>
+                    </li>
                 </ul>
             </nav>
 
@@ -42,7 +52,7 @@
         <section id="begin" class="begin">
             <div class="content-banner">
                 <div>
-                    <img src="img/avatar-400x400.jpeg">
+                    <img src="img/avatar-400x400.jpeg" />
                 </div>
 
                 <h1>Cristyan Valera</h1>
@@ -61,6 +71,10 @@
                     <a href="https://www.instagram.com/cvalera21" target="_blank" rel="noopener">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
+
+                    <a href="https://github.com/cristyanvalera/" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
                 </div>
             </div>
         </section>
@@ -71,9 +85,15 @@
 
                 <p>Hola, soy Cristyan Valera.</p>
 
-                <p>Soy programador web, con conocimientos en PHP, Laravel, JavaScript.</p>
+                <p>
+                    Soy programador web, con conocimientos en PHP, Laravel,
+                    JavaScript.
+                </p>
 
-                <p>Actualmente trabajo en el sector financiero, área de operaciones.</p>
+                <p>
+                    Actualmente trabajo en el sector financiero, área de
+                    operaciones.
+                </p>
 
                 <div class="row">
                     <div class="col">
@@ -160,62 +180,85 @@
 
                 <div class="row">
                     <div class="col">
-                        <h3>Technical Skills</h3>
+                        <h2>Tech Skills</h2>
 
-                        <div class="skill">
-                            <span>PHP</span>
-                        </div>
+                        <div class="skill-tech">
+                            <div class="skill">
+                                <img src="img/linux.svg" alt="Linux" />
+                                <h3>Linux</h3>
+                            </div>
 
-                        <div class="skill">
-                            <span>Laravel</span>
-                        </div>
+                            <div class="skill">
+                                <img src="img/terminal.svg" alt="Terminal" />
+                                <h3>Terminal</h3>
+                            </div>
 
-                        <div class="skill">
-                            <span>Livewire</span>
-                        </div>
+                            <div class="skill">
+                                <img src="img/Bash.svg" alt="Bash" />
+                                <h3>Bash</h3>
+                            </div>
 
-                        <div class="skill">
-                            <span>JavaScript</span>
-                        </div>
+                            <div class="skill">
+                                <img src="img/php.svg" alt="PHP" />
+                                <h3>PHP</h3>
+                            </div>
 
-                        <div class="skill">
-                            <span>CSS</span>
-                        </div>
+                            <div class="skill">
+                                <img src="img/sql.svg" alt="SQL" />
+                                <h3>SQL</h3>
+                            </div>
 
-                        <div class="skill">
-                            <span>Sql</span>
-                        </div>
+                            <div class="skill">
+                                <img src="img/laravel.svg" alt="Laravel" />
+                                <h3>Laravel</h3>
+                            </div>
 
-                        <div class="skill">
-                            <span>Git</span>
+                            <div class="skill">
+                                <img src="img/livewire.svg" alt="Livewire" />
+                                <h3>Livewire</h3>
+                            </div>
+
+                            <div class="skill">
+                                <img src="img/js.svg" alt="Javascript" />
+                                <h3>Javascript</h3>
+                            </div>
+
+                            <div class="skill">
+                                <img src="img/css.svg" alt="CSS" />
+                                <h3>CSS</h3>
+                            </div>
                         </div>
                     </div>
 
                     <div class="col">
-                        <h3>Professional Skills</h3>
-                        <div class="skill">
-                            <span>Adaptabilidad</span>
-                        </div>
+                        <h2>Soft Skills</h2>
 
-                        <div class="skill">
-                            <span>Resolución de Problemas</span>
-                        </div>
+                        <ul class="soft-skill">
+                            <li class="skill-item">
+                                <img src="img/check.svg" alt="check">
+                                <span>Comunicación clara</span>
+                            </li>
 
-                        <div class="skill">
-                            <span>Comunicación</span>
-                        </div>
+                            <li class="skill-item">
+                                <img src="img/check.svg" alt="check">
+                                <span>Adaptabilidad</span>
+                            </li>
 
-                        <div class="skill">
-                            <span>Trabajo en Equipo</span>
-                        </div>
+                            <li class="skill-item">
+                                <img src="img/check.svg" alt="check">
+                                <span>Resolución de Problemas</span>
+                            </li>
 
-                        <div class="skill">
-                            <span>Creatividad</span>
-                        </div>
+                            <li class="skill-item">
+                                <img src="img/check.svg" alt="check">
+                                <span>Trabajo en Equipo</span>
+                            </li>
 
-                        <div class="skill">
-                            <span>Dedicación</span>
-                        </div>
+                            <li class="skill-item">
+                                <img src="img/check.svg" alt="check">
+                                <span>Dedicación</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -226,32 +269,32 @@
                 <h2>PORTAFOLIO</h2>
 
                 <div class="galeria">
-                    <div class="proyecto">
+                    <div class="project">
                         <div class="overlay">
                             <h3>Desarrollo Web</h3>
                         </div>
 
-                        <img src="img/p1.webp">
+                        <img src="img/p1.webp" />
                     </div>
 
-                    <br>
+                    <br />
 
-                    <div class="proyecto">
+                    <div class="project">
                         <div class="overlay">
                             <h3>Backend</h3>
                         </div>
 
-                        <img src="img/p3.jpg">
+                        <img src="img/p3.jpg" />
                     </div>
 
-                    <br>
+                    <br />
 
-                    <div class="proyecto">
+                    <div class="project">
                         <div class="overlay">
                             <h3>Frontend</h3>
                         </div>
 
-                        <img src="img/p5.jpg">
+                        <img src="img/frontend.png" />
                     </div>
                 </div>
             </div>
@@ -263,10 +306,10 @@
 
                 <div class="row">
                     <div class="col">
-                        <input type="text" placeholder="Tú Nombre">
-                        <input type="text" placeholder="Número telefónico">
-                        <input type="text" placeholder="Dirección de correo">
-                        <input type="text" placeholder="Tema">
+                        <input type="text" placeholder="Tú Nombre" />
+                        <input type="text" placeholder="Número telefónico" />
+                        <input type="text" placeholder="Dirección de correo" />
+                        <input type="text" placeholder="Tema" />
                         <textarea cols="30" rows="10" placeholder="Mensaje"></textarea>
 
                         <button>
@@ -276,7 +319,7 @@
                     </div>
 
                     <div class="col">
-                        <img src="img/guanare_map.png">
+                        <img src="img/guanare_map.png" />
 
                         <div class="info">
                             <ul>
@@ -312,7 +355,11 @@
             <a href="https://www.instagram.com/cvalera21/" target="_blank" rel="noopener">
                 <i class="fa-brands fa-instagram"></i>
             </a>
+            <a href="https://github.com/cristyanvalera/" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i>
+            </a>
         </div>
+
         <p class="footer__copy">&copy; 2024</p>
     </footer>
 </body>

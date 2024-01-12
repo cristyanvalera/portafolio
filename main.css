@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
 
+:root {
+    --bg-alt: #1f1f1f;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Work Sans';
@@ -14,6 +18,57 @@ html {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.skill-tech {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+}
+
+.skill {
+    background-color: var(--bg-alt);
+    border-radius: 10px;
+    padding: 1.5em 1em;
+    text-align: center;
+}
+
+.skill img {
+    width: 50%;
+    height: auto;
+}
+
+.skill h3 {
+    font-size: 17px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.soft-skill {
+    background-color: var(--bg-alt);
+    border-radius: 10px;
+    padding: 1.5em 1em;
+    list-style: none;
+    margin: 0;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.skill-item img {
+    width: 25px;
+    height: auto;
+    color: #fff;
+}
+
+.skill-item span {
+    font-size: large;
+    font-style: bold;
+    font-family: inherit;
 }
 
 .container {
@@ -246,10 +301,6 @@ img {
     color: #fff;
 }
 
-.skill .text-white {
-    color: #fff;
-}
-
 .skills {
     background-color: #252A2E;
     color: #fff;
@@ -263,7 +314,7 @@ img {
 
 .skills h2 {
     font-size: 48px;
-    font-family: 'Righteous';
+    /* font-family: 'Righteous'; */
     text-align: center;
     padding: 20px 0;
 
@@ -276,12 +327,7 @@ img {
 .skills .row .col {
     width: 50%;
     padding: 0 20px;
-}
-
-.skills .row .col h3 {
-    font-size: 28px;
-    font-family: 'Righteous';
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .skills .skill>span {
@@ -322,7 +368,7 @@ img {
 }
 
 .portfolio {
-    background-color: #252A2E;
+    background-color: var(--bg-alt);
     color: #fff;
     padding: 50px 20px;
 }
@@ -348,13 +394,13 @@ img {
 .portfolio .galeria .project {
     position: relative;
     max-width: 340px;
-    height: auto;
     margin: 10px;
     cursor: pointer;
 }
 
 .portfolio .galeria .project img {
     width: 100%;
+    height: 90%;
     display: flex;
 }
 
@@ -598,8 +644,4 @@ footer .up {
         width: 100%;
     }
 
-}
-
-.text-white {
-    color: white;
 }
