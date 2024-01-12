@@ -38,7 +38,6 @@ img {
     height: auto;
 }
 
-.skill h3 {
 .skills h3 {
     font-size: 25px;
     margin: 0;
@@ -652,5 +651,4 @@ footer .up {
     .contact .row .col {
         width: 100%;
     }
-
 }
