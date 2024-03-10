@@ -338,7 +338,7 @@ img {
     margin-bottom: 30px;
 }
 
-.skills .skill>span {
+.skills .skill > span {
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
@@ -582,7 +582,7 @@ footer .up {
     font-size: 18px;
 }
 
-@media screen and (max-width:980px) {
+@media screen and (max-width: 980px) {
     nav {
         display: none;
     }
@@ -605,8 +605,11 @@ footer .up {
     }
 
     nav.responsive ul li {
-        border-bottom: 1px solid #fff;
         padding: 10px 0;
+    }
+
+    nav.responsive ul li:hover {
+        background-color: #353837;
     }
 }
 
